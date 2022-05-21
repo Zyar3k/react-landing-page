@@ -1,3 +1,7 @@
+import img1 from "../../images/svg-1.svg";
+import img2 from "../../images/svg-2.svg";
+import img3 from "../../images/svg-3.svg";
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -9,7 +13,7 @@ export const homeObjOne = {
     "Get access to oue exclusive app tha allows you to sen unlimited transactions without getting charged any fees.",
   buttonLabel: "Get started",
   imgStart: false,
-  img: require("../../images/svg-1.svg"),
+  img: img1,
   alt: "Car",
   dark: true,
   primary: true,
@@ -27,7 +31,7 @@ export const homeObjTwo = {
     "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer",
   buttonLabel: "Get started",
   imgStart: true,
-  img: require("../../images/svg-2.svg"),
+  img: img2,
   alt: "Car",
   dark: false,
   primary: false,
@@ -45,7 +49,7 @@ export const homeObjThree = {
     "Get everything det up and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
   buttonLabel: "Get started",
   imgStart: false,
-  img: require("../../images/svg-3.svg"),
+  img: img3,
   alt: "Car",
   dark: false,
   primary: false,
